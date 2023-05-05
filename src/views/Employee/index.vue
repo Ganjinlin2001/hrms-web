@@ -85,7 +85,7 @@
       </el-table-column>
       <el-table-column prop="gender" label="性别">
         <template slot-scope="scope">
-          <span>{{ scope.row.gender === 0 ? '女' : '男' }}</span>
+          <span>{{ scope.row.gender == 1 ? '女' : '男' }}</span>
         </template>
       </el-table-column>
       <el-table-column prop="id_number" label="身份证号">

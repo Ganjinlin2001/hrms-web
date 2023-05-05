@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import { getAllStaffDepartmentRecord, updateStaffDepartmentInfoByCode, departmentDel } from '@/api';
+import { getAllStaffDepartmentRecord, updateStaffDepartmentInfoByCode, departmentDel, getStaffDepartmentInfoByKeyWord } from '@/api';
 import { getExcel } from '../../utils/exportsExcel';
 import dayjs from 'dayjs';
 export default {
